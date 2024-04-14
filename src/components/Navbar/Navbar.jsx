@@ -18,7 +18,7 @@ const Navbar = () => {
         {name: 'Objects', path: '/objects'},
         {name: 'Summarize', path: '/summary'},
         {name: 'Grammar', path: '/grammar'},
-        {name: 'Concepts', path: '/concept'},
+        {name: 'Concepts', path: '/concepts'},
         {name: 'Translate', path: '/translate'},
     ]
   

@@ -10,11 +10,11 @@ const Home = () => {
 
     const features = [
         {title: "Bite-Sized Lessons", content: "Learn the basics of English through short, easy-to-understand lessons.", icon: <MdPlayLesson />, path: "/learn"},
-        {title: "Image Recognition", content: "Identify objects in images and learn their English names", icon: <FaRegImages />, path: "/"},
-        {title: "Text Summarization", content: "Quickly summarize lengthy texts for better understanding", icon: <FaArrowDownWideShort />, path: "/"},
-        {title: "Grammar Checker", content: "Get AI-powered feedback to improve your grammar and writing style", icon: <FaSpellCheck />, path: "/"},
-        {title: "Concept Explanation", content: "Explore difficult concepts through interactive stories and visuals", icon: <GiTeacher />, path: "/"},
-        {title: "Translation Services", content: "Instantly translate text from your native language to English", icon: <FaLanguage />, path: "/"},
+        {title: "Image Recognition", content: "Identify objects in images and learn their English names", icon: <FaRegImages />, path: "/objects"},
+        {title: "Text Summarization", content: "Quickly summarize lengthy texts for better understanding", icon: <FaArrowDownWideShort />, path: "/summary"},
+        {title: "Grammar Checker", content: "Get AI-powered feedback to improve your grammar and writing style", icon: <FaSpellCheck />, path: "/grammar"},
+        {title: "Concept Explanation", content: "Explore difficult concepts through interactive stories and visuals", icon: <GiTeacher />, path: "/concepts"},
+        {title: "Translation Services", content: "Instantly translate text from your native language to English", icon: <FaLanguage />, path: "/translate"},
     ]
 
   return (

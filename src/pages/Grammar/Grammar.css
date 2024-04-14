@@ -1,0 +1,43 @@
+.grammar__page {
+    min-height: 70vh;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grammar__page h1 {
+    font-size: 40px;
+}
+
+.grammar__page p {
+    font-size: 24px;
+}
+
+.grammar__page button {
+    width: 200px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: pink;
+    border: 3px solid black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.grammar__page textarea {
+    width: 90%;
+    outline: none;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 5px;
+}
+
+.correction__div {
+    border: 7px double black;
+    padding: 10px;
+    margin: 20px;
+    width: 90%;
+    border-radius: 20px;
+}

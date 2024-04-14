@@ -1,0 +1,47 @@
+.translate__page {
+    min-height: 70vh;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.translate__page h1 {
+    font-size: 40px;
+}
+
+.translate__page p {
+    font-size: 24px;
+}
+
+.translate__page button {
+    width: 200px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: pink;
+    border: 3px solid black;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.translate__page input {
+    width: 80%;
+    height: 30px;
+    outline: none;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(255, 255, 234);
+}
+
+.translate {
+    border: 7px double black;
+    padding: 10px;
+    margin: 20px;
+    width: 90%;
+    border-radius: 20px;
+    display: flex;
+}

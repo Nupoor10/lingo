@@ -1,0 +1,34 @@
+.objects__page {
+    min-height: 70vh;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.objects__page h1 {
+    font-size: 40px;
+}
+
+.objects__page h2 {
+    font-size: 32px;
+}
+
+.objects__page p {
+    font-size: 24px;
+}
+
+.objects__page button {
+    width: 200px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: pink;
+    border: 3px solid black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.objects__page img {
+    width: 300px;
+}
