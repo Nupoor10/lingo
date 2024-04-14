@@ -1,0 +1,35 @@
+.colors-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .colors-container h2 {
+    margin-bottom: 10px;
+    font-size: 34px;
+  }
+  
+  .colors-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .color-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .color-box {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .color-name {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  

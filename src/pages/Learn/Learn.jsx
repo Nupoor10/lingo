@@ -10,8 +10,7 @@ const Learn = () => {
         {title: "Alphabets", path:"alphabets"},
         {title: "Numbers", path:"numbers"},
         {title: "Colors", path:"colors"},
-        {title: "Days of the Week", path:"days"},
-        {title: "Months of the Year", path:"months"},
+        {title: "Days and Months", path:"daysandmonths"},
         {title: "Tenses", path:"tenses"},
         {title: "Parts of Speech", path:"partsofspeech"},
     ]

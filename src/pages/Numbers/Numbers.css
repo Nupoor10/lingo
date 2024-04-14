@@ -1,0 +1,36 @@
+.numbers-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .numbers-container h2 {
+    margin-bottom: 10px;
+    font-size: 34px;
+  }
+  
+  .numbers-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .number-item {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 6px double black;
+    background: rgb(252, 255, 229);
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  .number-item h3 {
+    font-size: 22px;
+  }
+
+  .number-item p {
+    font-size: 18px;
+  }
+  

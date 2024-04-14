@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import { FaLanguage, FaRegImages, FaArrowDownWideShort } from "react-icons/fa6";
 import { FaSpellCheck } from "react-icons/fa";
 import { GiTeacher } from "react-icons/gi";
@@ -16,6 +16,14 @@ const Home = () => {
         {title: "Concept Explanation", content: "Explore difficult concepts through interactive stories and visuals", icon: <GiTeacher />, path: "/concepts"},
         {title: "Translation Services", content: "Instantly translate text from your native language to English", icon: <FaLanguage />, path: "/translate"},
     ]
+    const exploreRef = useRef(null);
+
+    const scrollToExplore = () => {
+        window.scrollTo({
+            top: exploreRef.current.offsetTop,
+            behavior: 'smooth'
+        });
+    }
 
   return (
     <div className='home__page'>
@@ -23,7 +31,7 @@ const Home = () => {
             <img src='https://i.ibb.co/K6GQ8dB/Learning-languages-bro.png' border='0' alt='Learning-languages-bro'/>
             <span>Learn English With AI ✨</span>
             <p>Experience the power of AI in our English learning app, where you can seamlessly translate from your native language to English, enhance your grammar and writing style, and even extract objects from images to expand your vocabulary. Our app offers a unique blend of traditional English learning content alongside AI-driven features, allowing you to master English with ease and efficiency.</p>
-            <button>Get Started</button>
+            <button onClick={scrollToExplore}>Get Started</button>
         </div>
         <div className='about__section'>
             <img src="https://i.ibb.co/gSdTMgQ/Learning-languages-pana.png" alt="Learning-languages-pana" border="0" />
@@ -33,10 +41,10 @@ const Home = () => {
             </div>
         </div>
         <div className='stats__section'>
-            <p>10+ Lessons</p>
-            <p>5+ AI Features</p>
+            <p>7+ Lessons</p>
+            <p>6+ AI Features</p>
         </div>
-        <div className='services__section'>
+        <div ref={exploreRef} className='services__section'>
             <h2><span style={{color:'pink'}}>Explore</span> our app</h2>
             <div className='cards__container'>
             {features?.map((item) => {

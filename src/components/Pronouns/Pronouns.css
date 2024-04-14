@@ -1,0 +1,29 @@
+.pronouns-container {
+  padding: 20px;
+  border: 3px solid #ccc;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: rgb(220, 243, 245);
+  }
+  
+  .pronouns-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .pronouns-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .pronoun {
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .pronoun div {
+    margin-bottom: 5px;
+  }
+  

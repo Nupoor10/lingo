@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Select from 'react-select'
 import "./Translate.css"
+import toast from 'react-hot-toast';
 
 const Translate = () => {
   const [translation, setTranslation] = useState("");
@@ -13,7 +14,6 @@ const Translate = () => {
     { value: 'de', label: 'German' },
     { value: 'it', label: 'Italian' },
     { value: 'nl', label: 'Dutch' },
-    { value: 'ru', label: 'Russian' },
   ]  
 
   const handleChange = (selectedOption) => {
@@ -30,6 +30,7 @@ const Translate = () => {
       setTranslation(data?.translated_text)
     } catch (error) {
       console.log(error)
+      toast.error(error)
     }
   }
 

@@ -38,7 +38,7 @@ const Concepts = () => {
       <button onClick={handleGenerate}>Generate</button>
       {(imageSrc && concept) && (
         <div className='concept'>
-            <img src={imageSrc} alt="Fetched Image" />
+            <img src={imageSrc} alt="Generated" />
             <p>
             <ReactMarkdown remarkPlugins={[gfm]}>
               {concept}

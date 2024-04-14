@@ -1,0 +1,28 @@
+.greetings-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .greetings-container h2 {
+    margin-bottom: 10px;
+    font-size: 34px;
+  }
+
+  .greeting-item {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 6px double black;
+    background: rgb(229, 229, 255);
+    text-align: center;
+    cursor: pointer;
+  }
+  .greeting-item h3 {
+    font-size: 22px;
+  }
+  .greeting-item p {
+    font-size: 18px;
+  }
+  

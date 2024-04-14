@@ -1,0 +1,27 @@
+.days-and-months-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .days-and-months-container h2 {
+    margin-bottom: 10px;
+    font-size: 34px;
+  }
+
+  .days-and-months-container h3 {
+    font-size: 24px;
+    color: blueviolet;
+  }
+  
+  .days-and-months-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .item {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  

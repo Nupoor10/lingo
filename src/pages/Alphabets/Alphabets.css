@@ -1,0 +1,36 @@
+.alphabet-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .alphabet-container h2 {
+    margin-bottom: 10px;
+    font-size: 34px;
+  }
+  
+  .alphabet-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .alphabet-item {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 6px double black;
+    background: rgb(255, 229, 229);
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  .alphabet-item h3 {
+    font-size: 22px;
+  }
+
+  .alphabet-item p {
+    font-size: 18px;
+  }
+  

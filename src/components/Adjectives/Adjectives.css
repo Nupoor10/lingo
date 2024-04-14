@@ -1,0 +1,27 @@
+.adjectives-container {
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 240);
+  }
+  
+  .adjectives-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .adjectives-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .adjective {
+    width: calc(50% - 20px); /* Adjust width as needed */
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .adjective h3 {
+    margin-bottom: 10px;
+  }
+  
