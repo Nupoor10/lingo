@@ -1,0 +1,89 @@
+.hero__section {
+    background-color: #cbffe5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__section img {
+    height: 350px;
+}
+
+.hero__section span {
+    font-size: 50px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+    margin: 20px;
+}
+
+.hero__section p {
+    margin: 10px 40px;
+    font-size: 24px;
+}
+
+.hero__section button {
+    width: 200px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: pink;
+    border: 3px solid black;
+    font-size: 16px;
+}
+
+.about__section {
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__section img {
+    height: 350px;
+}
+
+.about__section h2 {
+    font-size: 40px;
+    padding: 0px 40px;
+}
+
+.about__section p {
+    font-size: 24px;
+    padding:0px 40px;
+}
+
+.stats__section {
+    background-color: rgb(16, 27, 96);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.services__section {
+    padding: 40px;
+}
+
+.services__section h2 {
+    font-size: 40px;
+}
+
+.cards__container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.contact__section {
+    background-color: beige;
+    margin: 0;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+}

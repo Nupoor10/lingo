@@ -1,0 +1,43 @@
+.feature__card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid black;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    background-color: #f4e0fb;
+}
+
+.feature__card:hover {
+    transform: scale(1.05);
+    cursor:pointer;
+    box-shadow: 10px 10px;
+}
+
+.feature__card svg {
+    height: 150px;
+    width: 150px;
+    color: rgb(16, 27, 96);
+}
+
+.feature__card h3 {
+    font-size: 32px;
+}
+
+.feature__card p {
+    font-size: 20px;
+}
+
+.feature__card button {
+    width: 100px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #cbffe5;
+    border: 3px solid black;
+    font-size: 16px;
+    cursor: pointer;
+}
