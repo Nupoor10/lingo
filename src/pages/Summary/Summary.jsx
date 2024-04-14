@@ -18,6 +18,7 @@ const Summary = () => {
         method: "POST",
         body: JSON.stringify({data: text})
       })
+      console.log(response)
       const data = await response.json()
       setSummary(data?.summary)      
     } catch (error) {

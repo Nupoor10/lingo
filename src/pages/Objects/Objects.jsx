@@ -23,6 +23,7 @@ const Objects = () => {
         method: "POST",
         body: formData
       });
+      console.log(response)
       const data = await response.json()
       const obj = data?.[0]?.label;
       setDetection(obj)

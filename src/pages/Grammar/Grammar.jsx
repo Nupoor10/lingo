@@ -14,6 +14,7 @@ const Grammar = () => {
         method: "POST",
         body: JSON.stringify({prompt: `Correct any grammar or spelling mistakes in this text: ${text}`})
       })
+      console.log(response)
       const data = await response.json()
       setCorrection(data?.response)        
     } catch (error) {
