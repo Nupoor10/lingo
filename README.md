@@ -51,5 +51,6 @@ Make sure you have both node and npm installed in your system.
 1. Fork and clone the project
 2. Create a cloudflare account
 3. Create a new pages application and connect your git repository. [refer here](https://developers.cloudflare.com/pages/get-started/git-integration/)
-4. Go to your local repo and run ```npm install ``` to install all dependencies 
-5. Finally run ```npm preview``` to preview the application
+4. Create bindings for Workers AI [refer here](https://developers.cloudflare.com/pages/functions/bindings/#workers-ai)
+5. Go to your local repo and run ```npm install ``` to install all dependencies 
+6. Finally run ```npm run preview``` to preview the application
